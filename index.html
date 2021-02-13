@@ -85,8 +85,8 @@
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2 id="name">Labas! Aš Nina Ždanovič.</h2> <!--add js to change this to different languages-->
-            <p class="mb-0">Menininkė &amp; Tyrėja</p>
+            <h2 id="myName">Labas! Aš Nina Ždanovič.</h2>
+            <p class="mb-0" id="artist">Menininkė &amp; Tyrėja</p>
           </div>
           <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
@@ -99,7 +99,7 @@
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="item painting col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="birth-of-an-artist.html" class="item-wrap fancybox">
+            <a href="artworks/birth-of-an-artist.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Birth of an Arist (2020)</h3>
                 <span>Oil Painting</span>
@@ -181,11 +181,17 @@
             <ul class="list-unstyled list-line">
               <li>2020. Launch Pad Gallery. "Bye Bye 2020," Yokohama, Japan.</li>
               <li>2020. Envision Arts. "Art in Isolation," online.</li>
-              <li>2020. Mothership NYC at a monthly salon, New York City, U.S.A. </li>
-              <li>2020. Bougie Art Gallery. "Contemporary Man," online.</li>
-              <li>2019. Gapar Aitiev Kyrgyz National Museum of Fine Arts “1st Feminnale of Contemporary Art,” Bishkek, Kyrgyzstan.</li>
-              <li>2018. Clouds, Art + Coffee. "Black," Tokyo, Japan.</li>
+              <li>...</li> <!--hide/show onclick-->
             </ul>
+            <div id="hiddenGroup">
+              <ul>
+                <li>2020. Mothership NYC at a monthly salon, New York City, U.S.A. </li>
+                <li>2020. Bougie Art Gallery. "Contemporary Man," online.</li>
+                <li>2019. Gapar Aitiev Kyrgyz National Museum of Fine Arts “1st Feminnale of Contemporary Art,” Bishkek, Kyrgyzstan.</li>
+                <li>2018. Clouds, Art + Coffee. "Black," Tokyo, Japan.</li>
+              </ul>
+            </div>
+
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <span class="la la-image la-3x mb-4"></span>
@@ -245,6 +251,7 @@
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 

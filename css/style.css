@@ -36,6 +36,15 @@ h6,
   padding: 7rem 0;
 }
 
+#myName:hover {
+  cursor: pointer;
+  color: #772e25;
+}
+#artist:hover {
+  cursor: pointer;
+  color: #197278;
+}
+
 .filters a {
   color: #000;
   display: inline-block;
@@ -355,6 +364,23 @@ h6,
   }
 }
 
+/* img magnifying */
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -362,7 +388,7 @@ h6,
 /* Custom Navmenu */
 
 .custom-navmenu {
-  background: #6b705c;
+  background: #772e25;
 }
 
 .custom-navmenu .custom-menu,
