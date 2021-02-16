@@ -15,11 +15,11 @@ body {
 }
 
 a {
-  color: #cb997e;
+  color: #c9ada7;
 }
 
 a:hover {
-  color: #b98b73;
+  color: #9a8c98;
 }
 
 h1,
@@ -32,17 +32,39 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.moreList {
+  display: none;
+}
+
+.moreList-conf {
+  display: none;
+}
+
+.dots{
+  cursor: pointer;
+}
+
+.hidden-dots{
+  cursor: pointer;
+  display: none;
+}
+
+.hidden-dots-conf{
+  cursor: pointer;
+  display: none;
+}
+
 .site-section {
   padding: 7rem 0;
 }
 
 #myName:hover {
   cursor: pointer;
-  color: #772e25;
+  color: #c9ada7;
 }
 #artist:hover {
   cursor: pointer;
-  color: #197278;
+  color: #9a8c98;
 }
 
 .filters a {
@@ -162,7 +184,7 @@ h6,
 
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
-  background: #d4c7b0;
+  background: #c9ada7;
 }
 
 .testimonial-wrap .testimonial {
@@ -231,7 +253,7 @@ h6,
   display: inline-block;
   width: 7px;
   height: 7px;
-  background-color: #d4c7b0;
+  background-color: #9a8c98;
   border-radius: 50%;
   margin: 5px;
 }
@@ -241,7 +263,7 @@ h6,
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active > span {
-  background: #6b705c;
+  background: #9a8c98;
 }
 
 .sticky-content {
@@ -269,7 +291,7 @@ h6,
 
 .form-control {
   border-radius: 0;
-  background: #ffe8d6;
+  background: #f2e9e4;
   border: 1px solid transparent;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -277,7 +299,7 @@ h6,
 
 .form-control:active,
 .form-control:focus {
-  background: #ffe8d6;
+  background: #f2e9e4;
   outline: none;
   box-shadow: none;
   border: 1px solid transparent;
@@ -296,7 +318,7 @@ h6,
 
 .php-email-form .validate {
   display: none;
-  color: #b98b73;
+  color: #f2e9e4;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -304,7 +326,7 @@ h6,
 
 .php-email-form .error-message {
   display: none;
-  color: #ffe8d6;
+  color: #f2e9e4;
   background: #6b705c;
   text-align: center;
   padding: 15px;
@@ -313,7 +335,7 @@ h6,
 
 .php-email-form .sent-message {
   display: none;
-  color: #ffe8d6;
+  color: #f2e9e4;
   background: #6b705c;
   text-align: center;
   padding: 15px;
@@ -334,7 +356,7 @@ h6,
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #197278;
+  border: 3px solid #22223b;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -388,7 +410,7 @@ h6,
 /* Custom Navmenu */
 
 .custom-navmenu {
-  background: #772e25;
+  background: #4a4e69;
 }
 
 .custom-navmenu .custom-menu,
@@ -409,16 +431,16 @@ h6,
 }
 
 .custom-navmenu .custom-menu li a:hover {
-  text-decoration: none;
+  font-weight: bold;
 }
 
 .custom-navmenu .custom-menu li.active a {
-  text-decoration: underline;
+  text-decoration: underline ;
 }
 
 .custom-navmenu h3 {
   font-size: 20px;
-  color: #edddd4;
+  color: #fff;
 }
 
 .custom-navmenu p {
@@ -430,7 +452,7 @@ h6,
 }
 
 .custom-navmenu a:hover {
-  color: #edddd4;
+  color: #f2e9e4;
 }
 
 /* Custom Navbar */
@@ -538,10 +560,10 @@ h6,
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #f8f9fa;
+  background: #f2e9e4;
   position: relative;
   text-align: center;
-  color: #0d1e2d;
+  color: #22223b;
 }
 
 .social a span {
